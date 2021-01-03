@@ -3,7 +3,7 @@ Lightweight error-handling for transforming values into std::io::Result. Provide
 - `Option<T>::oops(self, &str) -> std::io::Result<T>`
 - `Result<T, E>::oops(self, &str) -> std::io::Result<T>`
 - `Option<T>::lazy_oops(self, FnOnce() -> String) -> std::io::Result<T>`
-- `Resukt<T, E>::lazy_oops(self, FnOnce() -> String) -> std::io::Result<T>`
+- `Result<T, E>::lazy_oops(self, FnOnce() -> String) -> std::io::Result<T>`
 
 ## Examples
 
