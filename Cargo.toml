@@ -1,10 +1,10 @@
 [package]
 name = "oops"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["blakehawkins"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
-description = "Lightweight error-handling. Provides simple `Option<T> -> Result<T>`."
+description = "Lightweight error-handling. Provides `Option<T> -> std::io::Result<T>`."
 repository = "https://github.com/blakehawkins/oops"
 readme = "README.md"
 
